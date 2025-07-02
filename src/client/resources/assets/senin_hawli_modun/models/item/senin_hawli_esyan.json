@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "senin_hawli_modun:item/senin_hawli_esyan"
+  }
+}
