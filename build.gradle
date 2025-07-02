@@ -33,6 +33,10 @@ repositories {
         url = "https://cursemaven.com"
     }
     mavenCentral()
+
+    flatDir {
+        dirs 'libs'
+    }
 }
 
 dependencies {
@@ -42,7 +46,8 @@ dependencies {
 
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     // Mobpvp
-    modImplementation "curse.maven:mobpvp-1294652:6711403"
+    //modImplementation "curse.maven:mobpvp-1294652:6711403"
+    modImplementation name: 'mobpvp'
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 }
