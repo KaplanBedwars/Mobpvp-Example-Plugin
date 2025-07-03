@@ -17,7 +17,6 @@ package xyz.example;
 //MobPVP'nin sınıflarının kullanımı için gerekli kodlar com.kaplandev ile başlar.
 import com.kaplandev.api.MobPvPInitializer;//onClose için
 import com.kaplandev.api.PluginRegistry; //MOBPVP eklenti kaydedicisi
-import com.kaplandev.api.annotation.KaplanBedwars;//@KaplanBedwars
 import com.kaplandev.api.annotation.MobpvpPlugin;//@MobpvpPlugin
 import com.kaplandev.item.tab.Tabs;//Eşya menüsü
 
@@ -36,7 +35,7 @@ import net.minecraft.util.Identifier;
 @MobpvpPlugin
 //@KaplanBedwars sadece com.kaplandev paketinde kullanıla bilir. Bir işlevi yoktur. Yazılmaması gerekir.
 /**
-@KaplanBedwars
+@KaplanBedwars yazma
 **/
 public class kaplandev implements ModInitializer, MobPvPInitializer {
 
@@ -65,7 +64,7 @@ public class kaplandev implements ModInitializer, MobPvPInitializer {
     // MobPVP modu kapandığında bu kod çalışır.
     @Override
     public void onClose() {
-        System.out.println("[MyCustomAddon] onClose çalıştı!");
+        System.out.println("[" + MOD_ID + "] onClose çalıştı!");
     }
 
 
