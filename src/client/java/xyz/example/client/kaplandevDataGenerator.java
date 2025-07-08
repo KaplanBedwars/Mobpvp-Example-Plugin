@@ -6,7 +6,7 @@
  *
  * Copyright (c) 2025 KaplanBedwars, A KaplanBedwars Original Team(AKOT)
  *  ------------------------------------------------
- *  NOTE: Bu Proje şu anda yayınlanmamış bir versiyon olan mobpvp - 3.0.4 kullanmaktadır. 3.0.4 yayınlandıktan sonra build.gradle'dan sürümü değiştirin.
+ *  NNOTE: Bu Proje şu anda  mobpvp - 3.0.4 kullanmaktadır.
  *  ------------------------------------------------
  */
 
