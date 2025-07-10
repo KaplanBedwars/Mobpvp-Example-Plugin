@@ -46,7 +46,7 @@ dependencies {
 
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
     // Mobpvp
-    modImplementation "curse.maven:mobpvp-1294652:6749616"
+    modImplementation "curse.maven:mobpvp-1294652:6752419"
    /// modImplementation name: 'mobpvp-3.0.4-02.07.2025-BETA+2'
 
     modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
