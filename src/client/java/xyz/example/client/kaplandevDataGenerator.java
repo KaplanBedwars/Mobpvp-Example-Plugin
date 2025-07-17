@@ -6,7 +6,7 @@
  *
  * Copyright (c) 2025 KaplanBedwars, A KaplanBedwars Original Team(AKOT)
  *  ------------------------------------------------
- *  NOTE: Bu Proje şu anda  mobpvp - 3.0.7 kullanmaktadır.
+ *  NOTE: Bu Proje şu anda  mobpvp - 3.0.9 kullanmaktadır.
  *  ------------------------------------------------
  */
 
