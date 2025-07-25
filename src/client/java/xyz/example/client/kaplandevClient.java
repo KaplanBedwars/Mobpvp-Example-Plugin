@@ -18,10 +18,8 @@ package xyz.example.client;
 
 //MobPVP'nin sınıflarının kullanımı için gerekli kodlar. com.kaplandev ile başlar.
 import com.kaplandev.api.annotation.MobpvpPlugin; //@MobpvpPlugin
-import com.kaplandev.client.InfoSys.dink; // Bilgi sistemi
-
+import com.kaplandev.client.info.dink; //Bilgi sistemi
 //Fabric'in kullanımı için gerekli.
-
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientTickEvents;
 import net.minecraft.client.gui.screen.TitleScreen;
